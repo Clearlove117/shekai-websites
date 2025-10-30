@@ -15,4 +15,6 @@ body{margin:0;font-family:Inter,Arial,sans-serif;background:linear-gradient(180d
 .card h3{margin:0 0 8px}
 .card p{color:var(--muted);margin:0}
 .footer{margin-top:24px;padding:16px;border-top:1px solid rgba(255,255,255,0.03);color:var(--muted);font-size:14px}
+.lang-btn{background:transparent;border:none;color:var(--muted);cursor:pointer;padding:6px 8px;border-radius:6px}
+.lang-btn.active{background:var(--accent);color:#0b0b0b}
 @media(max-width:600px){.card img{height:140px}}
